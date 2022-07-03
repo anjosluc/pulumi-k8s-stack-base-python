@@ -24,6 +24,7 @@ deployment = Deployment(
         }
     })
 
+
 # Allocate an IP to the Deployment.
 frontend = Service(
     app_name,
